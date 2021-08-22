@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import { reactive } from 'vue'
+import { defineComponent, reactive } from 'vue'
 import style from '@/components/hello.module.css' // 外部如果想引入module文件 文件名必须带 module
 import './hello.css'
 import hook from '@/assets/hook.jpg'
@@ -31,6 +31,7 @@ const img = hook
 defineProps({
   msg: String
 })
+
 </script>
 <style scoped>
 div {

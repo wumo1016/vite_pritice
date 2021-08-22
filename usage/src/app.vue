@@ -1,10 +1,11 @@
 <template>
   <Helloword msg="abc" />
+  <Test />
 </template>
 
-<script setup>
-import Helloword from './components/helloWord.vue'
-
+<script lang="ts" setup>
+import Helloword from '@/components/helloWord.vue'
+import Test from '@/components/test.vue'
 </script>
 
 <style scoped>
