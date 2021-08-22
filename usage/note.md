@@ -6,3 +6,4 @@
 - alias 配置路径别名
 - 使用样式预处理器 只需要安装 less 或 sass 即可
 - 样式自动加前缀 安装 autoprefixer
+- 支持ts 安装 `cnpm install typescript @babel/core @babel/preset-env  @babel/preset-typescript -D` 
