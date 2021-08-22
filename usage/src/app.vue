@@ -10,7 +10,7 @@
 
 <script setup>
 import { reactive } from 'vue'
-import Helloword from './helloWord.vue'
+import Helloword from './components/helloWord.vue'
 import hook from './assets/hook.jpg'
 
 let state = reactive({
@@ -28,6 +28,6 @@ const img = hook
 .img_box {
   width: 200px;
   height: 200px;
-  background: url('./assets/hook.jpg') center / contain;
+  background: url('@/assets/hook.jpg') center / contain;
 }
 </style>
