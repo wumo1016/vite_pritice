@@ -5,17 +5,15 @@
 </template>
 
 <script lang="ts" setup>
-import { defineComponent, reactive } from 'vue'
+import { defineComponent, reactive } from "vue";
 
 interface State {
-  count: number
+  count: number;
 }
 
-const state = reactive<State>({ count: 0 })
+const state = reactive<State>({ count: 0 });
 const handleClick = () => {
-  state.count++
-}
-
+  state.count++;
+};
 </script>
-<style scoped>
-</style>
+<style scoped></style>
