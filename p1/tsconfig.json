@@ -9,7 +9,19 @@
     "sourceMap": true,
     // 是否支持 esm与commonjs之间的转换
     "esModuleInterop": false,
-    "lib": ["ESNext", "DOM", "ES2018.Promise"]
+    "lib": ["ESNext", "DOM", "ES2018.Promise"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.d.tsx", "src/**/*.vue", "doc/**/*.ts"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.d.tsx",
+    "src/**/*.vue",
+    "doc/**/*.ts",
+    "env.d.ts"
+  ],
+  "exclude": ["node_modules"]
 }
