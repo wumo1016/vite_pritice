@@ -11,5 +11,5 @@
     "esModuleInterop": false,
     "lib": ["ESNext", "DOM", "ES2018.Promise"]
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.d.tsx", "src/**/*.vue"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.d.tsx", "src/**/*.vue", "doc/**/*.ts"]
 }
