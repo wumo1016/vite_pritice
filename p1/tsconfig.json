@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": false,
+    // 不编译jsx
+    "jsx": "preserve",
+    "sourceMap": true,
+    // 是否支持 esm与commonjs之间的转换
+    "esModuleInterop": false,
+    "lib": ["ESNext", "DOM", "ES2018.Promise"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.d.tsx", "src/**/*.vue"]
+}
